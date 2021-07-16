@@ -1,0 +1,15 @@
+.divPrincipalLogin{
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.divFormularioLogin{
+    min-width: 50%;
+    max-width: 50%;
+    margin-left: 25%;
+    margin-top:10% ;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 3%;
+    text-align: center;
+}

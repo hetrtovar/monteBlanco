@@ -1,0 +1,44 @@
+mat-grid-tile {
+    background: lightblue;
+  }
+
+
+  label{
+      min-width: 50%;
+  }
+
+
+  .divBarra{
+      min-width: 100%;
+      max-width: 100%;
+      background-color: lightblue;
+      text-align: right;
+  }
+
+
+  .divPrincipal{
+    min-width: 100%;
+    max-width: 100%;
+
+  }
+
+  .divGrid{
+      margin-left: 5%;
+      max-width: 90%;
+      min-width: 90%;
+  }
+
+  .imgIcono{
+      width: 80%;
+      margin-left: 10%;
+  }
+
+  .divCOntenedorItem{
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  p{
+      text-align: justify;
+      font-size: 10px;
+  }

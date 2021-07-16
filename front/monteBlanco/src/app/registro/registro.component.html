@@ -1,0 +1,27 @@
+<div class="divPrincipalLogin">
+    <div class="divFormularioLogin">
+        
+        <label>
+            Nombre:
+        </label>
+        <br>
+        <input placeholder="Nombre..." [(ngModel)]="jsonUsuario.nombre"> 
+        <br>
+        <br>
+         
+        <label>
+            Correo electrónico:
+        </label>
+        <br>
+        <input placeholder="Correo electrónico..." [(ngModel)]="jsonUsuario.email">
+        <br>
+        <br>
+        <label>
+            Contraseña:
+        </label><br>
+        <input placeholder="Contraseña..." type="password" [(ngModel)]="jsonUsuario.pass">
+        <br>
+        <br>
+        <button (click)="registrarUsuario()">Registrarme</button>
+    </div>
+</div>

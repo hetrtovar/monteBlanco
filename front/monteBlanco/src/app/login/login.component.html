@@ -1,0 +1,19 @@
+<div class="divPrincipalLogin">
+    <div class="divFormularioLogin">
+        <label>
+            Email:
+        </label>
+        <br>
+        <input [(ngModel)]="jsonLogin.email">
+        <br>
+        <label>
+            Contraseña:
+        </label><br>
+        <input type="password" [(ngModel)]="jsonLogin.pass">
+        <br>
+        <br>
+        <button (click)="logIn()">Ingresar</button>
+        <br><br><br>
+        <a routerLink='/register'>Registrarme</a>
+    </div>
+</div>

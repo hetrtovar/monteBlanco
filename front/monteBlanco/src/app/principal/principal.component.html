@@ -1,0 +1,20 @@
+<div class="divPrincipal">
+    <div class="divBarra">
+            <a routerLink='/'><button>Salir</button></a>
+    </div>
+    <br>
+    <div class="divGrid">
+        <mat-grid-list cols="3" rowHeight="1.2:1">
+            <mat-grid-tile *ngFor="let noticia of arrayNoticias">
+                <div class="divCOntenedorItem">
+                    <img class="imgIcono" [src]="noticia.imgNew"><br>
+                    <label><strong>{{noticia.titulo}}</strong></label><br>
+                    <label>{{noticia.autor}}</label>
+                    <p>{{noticia.descripcion}}</p>
+                </div>
+            </mat-grid-tile>
+        </mat-grid-list>
+
+    </div>
+    <br><br>  
+</div>
